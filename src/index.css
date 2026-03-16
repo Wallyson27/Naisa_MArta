@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #455f53;
+  --color-accent: #B89045;
+  --color-background-light: #fefefe;
+  --color-background-dark: #171b19;
+  --font-display: "Manrope", sans-serif;
+}
+
+@utility gold-gradient {
+  background: linear-gradient(135deg, #B89045 0%, #D4AF37 50%, #B89045 100%);
+}
