@@ -1,21 +1,13 @@
-import { Menu, ShoppingBag, Activity, Star, BookOpen, Dumbbell, Users, Timer, ChevronDown } from 'lucide-react';
+import { Activity, Star, BookOpen, Dumbbell, Users, Timer, ChevronDown } from 'lucide-react';
 
 export default function App() {
   return (
     <div className="bg-background-light font-display text-slate-900 min-h-screen">
       {/* Top Navigation / Logo */}
-      <nav className="flex items-center bg-white border-b border-primary/10 p-4 justify-between sticky top-0 z-50">
-        <div className="text-primary flex size-10 shrink-0 items-center justify-center cursor-pointer">
-          <Menu className="w-8 h-8" />
-        </div>
+      <nav className="flex items-center bg-white border-b border-primary/10 p-4 justify-center sticky top-0 z-50">
         <div className="flex flex-col items-center">
           <span className="text-primary text-xl font-extrabold tracking-tighter leading-none">NAÍSA MARTA</span>
           <span className="text-[10px] tracking-[0.3em] uppercase text-accent font-bold">Nutricionista</span>
-        </div>
-        <div className="flex w-10 items-center justify-end">
-          <button className="text-primary cursor-pointer">
-            <ShoppingBag className="w-6 h-6" />
-          </button>
         </div>
       </nav>
 
