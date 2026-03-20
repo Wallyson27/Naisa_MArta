@@ -38,7 +38,7 @@ export default function App() {
           </div>
           <div className="w-full md:w-1/2 order-1 md:order-2">
             <div className="aspect-square bg-slate-200 rounded-2xl overflow-hidden shadow-2xl relative border-4 border-white">
-              <img alt="Nutricionista sorridente" className="w-full h-full object-cover" src="https://raw.githubusercontent.com/Wallyson27/Naisa_MArta/6f6810e7e9c266db46ab1c762c8fb8fe9f2f4d8d/IMG%20NIASA%2010.jpeg" referrerPolicy="no-referrer" />
+              <img alt="Nutricionista sorridente" className="w-full h-full object-cover object-top" src="https://raw.githubusercontent.com/Wallyson27/Naisa_MArta/6f6810e7e9c266db46ab1c762c8fb8fe9f2f4d8d/IMG%20NIASA%2010.jpeg" referrerPolicy="no-referrer" />
               <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur p-4 rounded-xl flex items-center gap-4">
                 <div className="flex -space-x-2">
                   <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-[10px] text-white ring-2 ring-white">MS</div>
